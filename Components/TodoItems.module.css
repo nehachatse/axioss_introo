@@ -1,0 +1,26 @@
+.inputItem_field{
+    /* width: 350px; */
+    height: 40px;
+    margin: 40px auto;
+    text-align: justify;
+    border: 2px solid rgb(222, 132, 240);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(222, 132, 240);
+}
+
+.btn_div{
+    float: right;
+}
+
+.btn_div > button{
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+    border-radius: 30px;
+}
+
+.btn_div > button:hover{
+    transform: scale(1.1, 1.1);
+}
