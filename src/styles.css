@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.btn{
+  width: 250px;
+  margin: 17px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(68, 225, 253);
+  border: 1px solid rgb(68, 225, 253);
+  font-size: 18px;
+  color: white;
+}
+
+.btn:hover{
+  transform: scale(1.1, 1.1);
+  background-color: white;
+  color:  rgb(68, 225, 253);
+}

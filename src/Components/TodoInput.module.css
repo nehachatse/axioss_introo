@@ -1,0 +1,31 @@
+.input_field{
+    margin: 17px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(222, 132, 240);
+    border: 1px solid white;
+    font-size: 22px;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+.btn{
+    width: 50px;
+    margin: 17px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(222, 132, 240);
+    border: 1px solid rgb(222, 132, 240);
+    font-size: 22px;
+    color: white;
+}
+
+.btn:hover{
+    transform: scale(1.2, 1.2);
+    background-color: white;
+    color:  rgb(222, 132, 240);
+}
